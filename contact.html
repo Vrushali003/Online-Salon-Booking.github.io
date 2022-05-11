@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Saloon Online Booking</title>
+	<link rel="stylesheet" type="text/css" href="index.js">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">	
+	</style>
+</head>
+
+<body>
+ 	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light navbar1">
+					<div class="header">
+					<a href="" class="wish"><img src="wishlist.png" height="30px" width="30px">Wishlist</a>
+					</div>
+<!-- 				  <a class="navbar-brand" href="#"><img src="beauty3.png" height="100px" width="130px"></a>
+ -->				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 						aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse col_1" id="navbarNavDropdown">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active nav-item1">
+				        <a class="nav-link" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item active">
+				        <a class="nav-link" href="shop.html">Shop</a>
+				      </li>
+				      <li class="nav-item active">
+				        <a class="nav-link" href="bridal.html">BridalMakeup</a>
+				      </li>
+				      <li class="nav-item dropdown active">
+				        <a class="nav-link" href="#">
+				          BookOppoinment
+				        </a>
+				      </li>
+				    </ul>
+				  </div>
+				  <div class="icon1">
+				  	<a href="#"><i class="fa-solid fa-magnifying-glass search"></i></a>
+				  	<a href="#" class="shop"><img src="bag.png"></div></a>
+				  </div>
+				</nav>
+		  </div>
+	</div>
+</div>
+<!-- <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="header_section">
+				<div class="bg_image">
+					<img src="bridal.png">
+					<h2 class="head">Book <span>Makeup Artist</span></h2>
+					<h2 class="head1">in your budget</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ --><div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<form class="form-group form_">				
+				<div id="form" class="form_main">
+					<h1 class="text-white text-center">Book Oppointment Here</h1>
+
+					<div id="first-group">
+
+						<div id="content">
+							<i class=" fa fa-solid fa-user" aria-hidden="true"></i>
+							<input type="text" class="input1" placeholder="First name" required>
+						</div>
+						<div id="content">
+							<i class=" fa fa-solid fa-phone" aria-hidden="true"></i>
+							<input type="number" class="input1" placeholder="Phone number" required>
+						</div>
+						<div id="content">
+							<i class="fa fa-regular fa-calendar-days" aria-hidden="true"></i>
+							<input type="date" class="input1" placeholder="Booking Date"required>
+						</div>
+						<div id="content">
+							<i class=" fa fa-solid fa-users" aria-hidden="true"></i>
+							<select class="input1" style="background-color: black;" required>
+								<option value="">No. of costumer</option>
+								<option value="">1-5</option>
+								<option value="">5-10</option>
+								<option value="">10-12</option>
+							</select>
+						</div>
+					</div>
+						<div id="second-group">
+
+						<div id="content">
+							<i class=" fa fa-solid fa-user" aria-hidden="true"></i>
+							<input type="text" class="input1 last" placeholder="Last name" required>
+						</div>
+						<div id="content">
+							<i class="fa fa-solid fa-envelope"aria-hidden="true"></i>
+							<input type="email" class="input1" placeholder="Email" required>
+						</div>
+						<div id="content">
+							<i class="fa fa-solid fa-clock"></i>
+							<input type="time" class="input1" placeholder="time" required>
+						</div>
+						<div id="content">
+							<i class="fa fa-regular fa-circle-check"></i>
+							<select class="input1" style="background-color: black;" placeholder="Services-required"required>
+							<option value="">0 Selected</option>
+							<option value="">Hair Cut & Blow Dry</option>
+							<option value="">Color-Semi-Permanent</option>
+							<option value="">Color-Permanent</option>
+							<option value="">Colour-Fashion</option>
+							<option value="">Color-Bleach & Toner</option>
+							<option value="">High Lights Partial</option>
+							<option value="">High Light Full</option>
+							<option value="">Others</option>
+							</select>
+						</div>	
+						</div>
+						<button type="submit" value="Submit" id="submit-btn" onclick="validate();">Book Now</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+						<footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: #3e4551; color: white; margin-top: 20px;">
+						  <div class="container text-center text-md-left">
+						    <div class="row">
+						      <div class="col-md-4 mx-auto">
+						        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><img src="beauty2.png" height=80px width="100px">Footer Content</h5>
+						        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+						          consectetur
+						          adipisicing elit.</p>
+						      </div>
+						      <hr class="clearfix w-100 d-md-none">
+						      <div class="col-md-2 mx-auto">
+						        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+						        <ul class="list-unstyled">
+						          <li>
+						            <a href="#!" style="color: white;">Privacy Policy</a>
+						          </li>
+						          <li>
+						            <a href="#!" style="color: white;">Terms And Condition</a>
+						          </li>
+						          <li>
+						            <a href="#!" style="color: white;">Assesibility</a>
+						          </li>
+						          <li>
+						            <a href="#!" style="color: white;">Cookie & Notice</a>
+						          </li>
+						        </ul>
+						      </div>
+						      <hr class="clearfix w-100 d-md-none">
+						      <div class="col-md-2 mx-auto">
+						        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+						        <ul class="list-unstyled">
+						          <li>
+						            <a href="#!" style="color: white;">Careers</a>
+						          </li>
+						          <li>
+						            <a href="#!"style="color: white;">Find Us</a>
+						          </li>
+						          <li>
+						            <a href="#!"style="color: white;">About Us</a>
+						          </li>
+						          <li>
+						            <a href="#!"style="color: white;">sidemap</a>
+						          </li>
+						        </ul>
+						      </div>
+						      <hr class="clearfix w-100 d-md-none">
+						      <div class="col-md-2 mx-auto">
+						        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+						        <ul class="list-unstyled">
+						          <li>
+						            <a href="#!" style="color: white;">Careers</a>
+						          </li>
+						          <li>
+						            <a href="#!" style="color: white;">About us</a>
+						          </li>
+						          <li>
+						            <a href="#!"style="color: white;">Find us</a>
+						          </li>
+						          <li>
+						            <a href="#!"style="color: white;">Address</a>
+						          </li>
+						        </ul>
+						      </div>
+						    </div>
+						  </div>
+						  <hr>
+						  <ul class="list-unstyled list-inline text-center py-2">
+						    <li class="list-inline-item">
+						      <h5 class="mb-1">Register for free</h5>
+						    </li>
+						    <li class="list-inline-item">
+						      <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+						    </li>
+						  </ul>
+						  <hr>
+						  <ul class="list-unstyled list-inline text-center">
+						    <li class="list-inline-item">
+						      <a class="btn-floating btn-fb mx-1">
+						        <i class="fab fa-facebook-f f1"> </i>
+						      </a>
+						    </li>
+						    <li class="list-inline-item">
+						      <a class="btn-floating btn-tw mx-1">
+						        <i class="fab fa-twitter t1"> </i>
+						      </a>
+						    </li>
+						    <li class="list-inline-item">
+						      <a class="btn-floating btn-gplus mx-1">
+						        <i class="fab fa-google-plus-g"> </i>
+						      </a>
+						    </li>
+						    <li class="list-inline-item">
+						      <a class="btn-floating btn-li mx-1">
+						        <i class="fab fa-linkedin-in"> </i>
+						      </a>
+						    </li>
+						    <li class="list-inline-item">
+						      <a class="btn-floating btn-dribbble mx-1">
+						        <i class="fab fa-dribbble"> </i>
+						      </a>
+						    </li>
+						  </ul>
+						  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+						    <a href="https://mdbootstrap.com/">@beauty.com</a>
+						  </div>
+						</footer>
+			</div>
+		</div>
+	</div>			
+</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    	
+
+    </script>
+</body>

@@ -1,0 +1,528 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1192 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1192 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1192 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+figure.snip1192 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1192 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.snip1192 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+}
+.services_main{
+	    left: 179px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 310px;
+
+}
+.btn-danger{
+        border-radius: 20px !important;
+        background-color: #ff3547 !important;
+        padding: 10px !important;
+        width: 130px !important;
+      }
+
+     .fa-facebook-f.f1:before{
+     content: "\f39e";
+    border-radius: 50% !important;
+    border: 2px solid #3b5998 !important;
+    padding: 10px !important;
+    background-color: #3b5998 !important;
+    color: white !important;
+}
+.fa-twitter.t1:before {
+    content: "\f099";
+    border: 2px solid #55acee;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #55acee;
+}
+.fa-google-plus-g:before {
+    border: 2px solid #dd4b39;
+    color: white;
+    border-radius: 50%;
+    background-color: #dd4b39;
+    padding: 10px;
+    content: "\f0d5";
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    border: 2px solid #0082ca;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #0082ca;
+}
+.fa-dribbble:before {
+    content: "\f17d";
+     border: 2px solid #ec4a89;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #ec4a89;
+}
+.owl-item.cloned{
+	width: 300px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Poppins:wght@300&display=swap');
+a.nav-link{
+	font-size: 20px !important;
+	word-spacing: 10px !important;
+	letter-spacing: 4px !important;
+	font-weight: 1900px !important;
+/*	font-family: 'Estonia', cursive;
+	font-family: 'Poppins', sans-serif;
+*/		font-family: Cormorant,cursive;
+/*	font-style: italic;
+*/
+}
+a.nav-link:hover{
+	border-radius: 20px;
+	text-decoration: none;
+	color: #ff75b4 !important;
+}
+nav.navbar:hover{
+	color: #ff75b4;
+	z-index: 99;
+
+}
+.wish img:{
+	color: hotpink;
+}
+.navbar1{
+	display: flex !important;
+	justify-content: space-between !important;
+}
+.col_1{
+	display: flex;
+	justify-content: center;
+}
+.wish{
+	font-family: Cormorant,cursive;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    color: #000;
+    margin-top: 60px;
+}
+a.wish:hover{
+	text-decoration: none;
+	color: hotpink;
+}
+.shop img{
+	margin: 5px;
+
+}
+.shop img: {
+background-color: hotpink;
+}
+#btn{
+	font-family: 'Didact Gothic', sans-serif;
+	padding: 10px 14px;
+	margin-left: 60px;
+	background-color: white;
+	color: hotpink;
+	width: 130px;
+	box-shadow: 0 0 2px 1px;
+	cursor: pointer;
+}
+#btn:hover{
+	background-color: black;
+	color: hotpink;
+}
+i.search{
+	margin: 10px;
+	margin-right: 20px;
+	color: black !important;
+}
+.wish img{
+	margin: 20px;
+}
+.bg_image img{
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+h2.head span{
+	color: hotpink;
+}
+h2.head{
+	color: black;
+    right: 31px;
+    font-family: cursive;
+	position: absolute;
+	top: 289px;
+	padding: 10px;
+	background-color: white;
+}
+h2.head1{
+	color: black;
+    right: 50px;
+    font-family: cursive;
+	position: absolute;
+	top: 350px;
+	padding: 10px;
+	background-color: white;
+}
+.heading h3{
+	padding: 10px;
+	margin: 20px;
+	text-align: left;
+	font-family: fantasy;
+	font-size: 40px;\
+	font-weight: 100px;
+
+}
+.heading p{
+	font-family: cursive;
+	vertical-align: middle;
+	align-content: center;
+	color: hotpink;
+	margin: 5px;
+	margin-left: 60px;
+	padding: 10px;
+	text-align: left;
+	width: 700px;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 40px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  color: white;
+  background-color: hotpink;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+	color: white;
+	text-align: center;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  color: hotpink;
+  background-color: black;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.card{
+	display: flex;
+
+	padding: 20px;
+	height: 350px;
+	width: 242px;
+	background-color: #fdf2f5 !important;
+}
+.card_main{
+	display: flex;
+}
+.card_img img{
+	color: hotpink;
+	position: relative;
+	left: 58px;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+	height: 60px;
+	width: 60px;
+}
+#para{
+	display: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Poppins:wght@300&family=Teko:wght@300&display=swap');
+
+.btn a{
+	text-decoration: underline !important;
+	margin: 23px;
+}
+.para p{
+	font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    line-height: 1.75em;
+    margin: 0 0 15px;
+    color: #777;
+    text-align: center;
+}
+.card_head h4{
+	margin: 23px;
+	color: #777;
+	background-color: transparent;
+	text-align: center;
+	font-family: "Teko", sans-serif;
+	font-size: 18px;
+	font-weight: 200px;
+}
+.services h2{
+	   padding: 10px;
+	margin: 23px;
+	text-align: left;
+	font-family: fantasy;
+	font-size: 40px;\
+	font-weight: 100px;
+
+}
+	.back_image {
+    margin-top: 40px;
+    height: 911px;
+    width: 100%;
+    background: url(back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card:hover{
+	border-bottom: 2px solid hotpink;
+
+}
+h4.h_4{
+font-size: 50px !important;
+    margin: 20px;
+    padding: 12px;
+    background-color: mediumvioletred;
+    width: 496px;
+    text-align: center;
+    left: 428px;
+    position: absolute;
+    top: 100px;
+    font-size: 24px;
+    font-family: fantasy;
+    color: white; 
+    opacity: 0.6;   
+}
+
+@media only screen and (max-width: 600px) {
+.heading p{
+	width: 282px;
+}
+.card_img img{
+	position: relative;
+	right: 40px;
+}
+.bg_image img{
+  width: 100%;
+}
+.card{
+	margin: 20px;
+}
+.card_img img{
+  position: relative;
+  left: 0;
+}
+.card_main{
+	vertical-align: center;
+	text-align: center;
+	margin: 40px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+h4.h_4{
+position: absolute;
+left: 103px;
+width: 180px;
+font-size: 20px !important;
+}
+ .services_main {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 181px;
+    justify-content: center;
+    align-items: center;
+    margin: -70px;
+}
+.icon1{
+	display: none;
+}
+h2.head {
+  color: black;
+  right: 28px;
+  font-family: cursive;
+  position: absolute;
+  top: 116px;
+  padding: 3px;
+  background-color: white;
+  font-size: 12px;
+}
+h2.head1 {
+  color: black;
+    font-size: 13px;
+    right: 31px;
+    font-family: cursive;
+    position: absolute;
+    top: 84px;
+    padding: 4px;
+    background-color: white;
+}
+}

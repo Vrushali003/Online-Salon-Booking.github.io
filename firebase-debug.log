@@ -1,0 +1,44 @@
+[debug] [2022-05-05T08:57:42.882Z] ----------------------------------------------------------------------
+[debug] [2022-05-05T08:57:42.890Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Vrushali\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-05T08:57:42.893Z] CLI Version:   10.8.0
+[debug] [2022-05-05T08:57:42.893Z] Platform:      win32
+[debug] [2022-05-05T08:57:42.894Z] Node Version:  v16.14.2
+[debug] [2022-05-05T08:57:42.899Z] Time:          Thu May 05 2022 14:27:42 GMT+0530 (India Standard Time)
+[debug] [2022-05-05T08:57:42.900Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-05T08:57:43.261Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-05T08:57:43.263Z] > authorizing via signed-in user (vjaywar12@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\online-saloon-booking
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-05T08:57:52.399Z] Using project from CLI flag: online-saloon-booking-d33ed
+[debug] [2022-05-05T08:57:52.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/online-saloon-booking-d33ed [none]
+[debug] [2022-05-05T08:57:58.854Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/online-saloon-booking-d33ed 200
+[debug] [2022-05-05T08:57:58.855Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/online-saloon-booking-d33ed {"projectId":"online-saloon-booking-d33ed","projectNumber":"578928999289","displayName":"online-saloon-booking","name":"projects/online-saloon-booking-d33ed","resources":{"hostingSite":"online-saloon-booking-d33ed"},"state":"ACTIVE"}
+[info] i  Using project online-saloon-booking-d33ed (online-saloon-booking) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
